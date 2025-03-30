@@ -25,6 +25,7 @@ Data Quality Issues:</br>
 Column names had inconsistent whitespace</br>
 Missing values in winddirection (1) and windspeed (1)</br>
 Rainfall was categorical (yes/no) needing conversion</br>
+
 **Feature Engineering:**
 The 'rainfall' column is clearly the target variable for binary classification</br>
 Other columns appear to be weather measurements that could predict rainfall</br>
@@ -34,6 +35,7 @@ Several visualization steps are prepared but not shown in the visible portion</b
 **Machine Learning Readiness:**</br>
 The notebook imports many scikit-learn classifiers, suggesting the author plans to compare different models</br>
 Feature selection methods are imported, indicating interest in dimensionality reduction</br>
+
 **Suggested Next Steps**</br>
 Complete the Visualization:</br>
 Add actu</br>l plotting code to explore relationships between variables and rainfall</br>
