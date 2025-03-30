@@ -26,7 +26,7 @@ Column names had inconsistent whitespace</br>
 Missing values in winddirection (1) and windspeed (1)</br>
 Rainfall was categorical (yes/no) needing conversion</br>
 
-**Feature Engineering:**
+**Feature Engineering:**</br>
 The 'rainfall' column is clearly the target variable for binary classification</br>
 Other columns appear to be weather measurements that could predict rainfall</br>
 **Visualization Setup:**</br>
