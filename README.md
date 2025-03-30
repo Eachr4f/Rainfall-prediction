@@ -29,23 +29,28 @@ Rainfall was categorical (yes/no) needing conversion</br>
 **Feature Engineering:**</br>
 The 'rainfall' column is clearly the target variable for binary classification</br>
 Other columns appear to be weather measurements that could predict rainfall</br>
+
 **Visualization Setup:**</br>
 Seaborn's whitegrid style is initialized</br>
 Several visualization steps are prepared but not shown in the visible portion</br>
+
 **Machine Learning Readiness:**</br>
 The notebook imports many scikit-learn classifiers, suggesting the author plans to compare different models</br>
 Feature selection methods are imported, indicating interest in dimensionality reduction</br>
 
 **Suggested Next Steps**</br>
 Complete the Visualization:</br>
-Add actu</br>l plotting code to explore relationships between variables and rainfall</br>
+Add actuel plotting code to explore relationships between variables and rainfall</br>
+
 Model Implementation:</br>
 Split data into train/test sets</br>
 Implement and compare the imported classifiers</br>
 Evaluate feature importance</br>
+
 Feature Engineering:</br>
 Consider creating derived features (e.g., temp ranges, humidity changes)</br>
 Normalize/scale numerical features if needed</br>
+
 Time Series Analysis:</br>
 Since data includes 'day' column, could explore temporal patterns</br>
 
